@@ -1,0 +1,111 @@
+
+body{
+    background: #ffffff;
+    font-family: Garamond, Arial, sans-serif;
+    font-size: 20px;
+}
+h1, h2, h3{
+    text-align: center;
+    padding-left: 10%;
+    color: dimgrey;
+}
+p{
+    padding: 5%;
+    color: #2e5690;
+}
+img{
+    text-align: center;
+    max-width: 100%;
+}
+#wrap{
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 97%;
+}
+header{
+    text-align: left;
+    padding-left: 70px;
+}
+nav ul{
+    margin: 0;
+    padding-left: 50px;
+}
+nav ul li{
+    float: left;
+    border: 1px solid #758697;
+    width: 15%;
+}
+nav ul li a{
+    background: #758697;
+    display: block;
+    padding: 6% 10%;
+    font-weight: bold;
+    font-size: 21px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: #41d0f0;
+}
+.openStatement {
+    margin: 1% 2% 2% 2%;
+}
+.sidebar{
+    width: 50%;
+    float: right;
+    margin: 1%
+}
+.section{
+    width: 28%;
+    float: left;
+    margin: 2% 2%;
+    text-align: center;
+}
+.footer {
+    background-color: #758697;
+    width:100%;
+    overflow: hidden;
+}
+.footer p{
+    color:white;
+    text-decoration: none;
+    text-align:center;
+    font-size: 25px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+
+@media screen and (max-width: 450px){
+    body{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 750px) {
+    nav{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    nav ul{
+        list-style: none;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    nav ul li{
+        text-align: center;
+        width: 100%;
+        border-top: 1px solid dimgrey;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+    }
+    nav ul li a{
+        padding: 8px 0;
+    }
+}
